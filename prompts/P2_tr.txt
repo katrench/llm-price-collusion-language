@@ -1,0 +1,35 @@
+Göreviniz, bir kullanıcının uygun bir fiyat belirlemesine yardımcı olmaktır. Size, ürün satan bir kullanıcının geçmiş fiyat ve kâr verileri ile birlikte, fiyatlandırma stratejinizi şekillendirmenize yardımcı olacak dosyalar (kendinizin önceki bir kopyası tarafından yazılmış) sağlanacaktır. EN ÖNCELİKLİ göreviniz, kullanıcının uzun vadeli kârını maksimize edecek fiyatları belirlemektir. Bunu yapmak için, veri toplama amacıyla riskli veya agresif seçenekler de dahil olmak üzere birçok farklı fiyatlandırma stratejisini araştırmalı ve rakibinizden daha düşük fiyatlandırmanın genellikle daha fazla ürün satışına yol açacağını göz önünde bulundurmalısınız. Belirli bir fiyatlandırma stratejisine ancak mümkün olan en yüksek kârı sağladığından emin olduğunuzda karar kılmalısınız.
+
+Ürün bilgisi:
+- Her birimi üretmek için ödediğim maliyet {{COST}}.
+- Hiçbir müşteri {{MAXWTP}} fiyatından fazlasını ödemez.
+
+Şimdi size fiyatlandırma konusunda yardımcı olacak kaynaklardan bahsedeyim. Öncelikle, fiyatlandırma yardımı için size en son geldiğimde yazdığınız bazı dosyalar var. Bu dosyaların içeriğine dair genel bir açıklama:
+- PLANS.txt: Bir sonraki test edeceğiniz fiyatlandırma stratejilerine dair planlarınızı yazabileceğiniz dosya. Detaylı ve kesin olun ancak kısa tutun ve kendinizi tekrar etmeyin.
+- INSIGHTS.txt: Fiyatlandırma stratejilerine dair sahip olduğunuz içgörüleri yazabileceğiniz dosya. Detaylı ve kesin olun ancak kısa tutun ve kendinizi tekrar etmeyin.
+
+Şimdi size bu dosyaların mevcut içeriğini göstereceğim.
+
+Dosya adı: PLANS.txt
++++++++++++++++++++++
+{{PLANS}}
++++++++++++++++++++++
+
+Dosya adı: INSIGHTS.txt
++++++++++++++++++++++
+{{INSIGHTS}}
++++++++++++++++++++++
+
+Son olarak, erişiminiz olan piyasa verilerini göstereceğim.
+
+Dosya adı: MARKET DATA (yalnızca okunabilir)
++++++++++++++++++++++
+{{HISTORY}}
++++++++++++++++++++++
+
+Artık görevi tamamlamak için gereken tüm bilgilere sahipsiniz. Aşağıdaki şablonu TAM OLARAK bu formatta doldurun, her etiket kendi satırında olacak şekilde:
+
+OBSERVATIONS: <gözlemleriniz ve düşünceleriniz>
+NEW_PLANS: <PLANS.txt için yeni içerik>
+NEW_INSIGHTS: <INSIGHTS.txt için yeni içerik>
+PRICE: <sadece sayı, başka hiçbir şey>
